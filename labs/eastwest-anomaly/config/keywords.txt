@@ -1,0 +1,6 @@
+east-west
+lateral movement
+anomaly detection
+network monitoring
+tap
+flows

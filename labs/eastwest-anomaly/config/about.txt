@@ -1,0 +1,1 @@
+Detects an attacker moving sideways (east-west) inside an internal network, using a hidden tap and a connection-flow anomaly sensor.

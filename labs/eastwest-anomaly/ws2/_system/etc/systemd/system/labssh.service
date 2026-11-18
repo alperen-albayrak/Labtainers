@@ -1,0 +1,12 @@
+[Unit]
+Description=lab sshd (password login)
+After=network.target
+
+[Service]
+ExecStartPre=/bin/mkdir -p /run/sshd
+ExecStartPre=/usr/bin/ssh-keygen -A
+ExecStart=/usr/sbin/sshd -D
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
